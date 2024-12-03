@@ -1,0 +1,106 @@
+
+body{
+    background-color: white;
+    width: 375px;
+    height: 936px;
+}
+#div1{
+    width: 325px;
+    background-color: rgba(189, 177, 177, 0.246);
+    padding: 15px;
+    border: 15px solid rgba(188, 187, 183, 0.414);
+    border-radius: 10px;
+}
+#div2{
+    width: 325px;
+    text-align: center;
+}
+#main{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    border-radius: 25px 25px 0px 0px;
+}
+#img1{
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+}
+h1{
+    color: black;
+}
+p{
+    color: grey;
+}
+#b1{
+    margin: 0px 45px;
+    font-style: normal;
+    opacity: 50%;
+}
+.left{
+    margin: 5px;
+    border: 1px solid;
+    padding: 1px;
+    border-radius: 5px;
+    text-align: left;
+   
+}
+#left1,#left2,#left3{
+    color: rgb(169, 102, 233);
+    background-color: rgb(227, 217, 217);
+    border-color: white;
+    height: 55px;
+    width: 255px;
+    padding: 5px;
+}
+#left4,#left5{
+    background-color: rgb(195, 102, 175);
+    color: white;
+    height: 35px;
+    width: 200px;
+}
+#right1,#right2{
+    color: gray;
+    background-color: hsl(0, 0%, 100%);
+    border-color:white;
+    height: 35px;
+    width: 200px;
+    margin-left: 125px;
+
+}
+#img2,#img3,#img4{
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+}
+.right{
+    border-radius: 5px;
+    padding: 1px;
+    margin: 5px;
+    text-align: right;
+}
+input{
+    height: 35px;
+    width: 250px;
+    border-radius: 15px;
+    margin-left: 45px;
+    border-color: white;
+}
+
+@media (min-width:1200px) {
+    #main-box{
+        display: flex;
+        width: 900px;
+        margin: 35px 250px;
+    }
+    #div2{
+        text-align: justify;
+        margin: 125px 10px;
+        margin-left: 45px;
+    }
+    .attribution{
+        width: 900px;
+        margin-left: 225px;
+    }
+    
+}
